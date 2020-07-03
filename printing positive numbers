@@ -1,0 +1,10 @@
+list1 =[12, -7 , 5,64,-14]
+list2 = [12,14,-95,3]
+for negativenumber in list1:
+    if negativenumber<0:
+        list1.remove(negativenumber);
+print(list1)
+for negativenumber in list2:
+    if negativenumber<0:
+        list2.remove(negativenumber);
+print(list2)
