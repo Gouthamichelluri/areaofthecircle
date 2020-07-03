@@ -1,0 +1,12 @@
+n = int(input("enter the limit"))
+i=0
+j=1
+print(i)
+print(j)
+while i>=0 and j>0:
+    p=i+j
+    print(p)
+    i=j
+    j=p
+    if j==n:
+        break
